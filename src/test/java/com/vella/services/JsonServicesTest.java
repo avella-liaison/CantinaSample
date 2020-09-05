@@ -9,6 +9,13 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.MockitoJUnitRunner;
 
+/**
+ * Initially written to use mockito runner but subsequent impl had no services
+ * to mock out.
+ * 
+ * @author avella
+ *
+ */
 @RunWith(MockitoJUnitRunner.class)
 public class JsonServicesTest {
 
